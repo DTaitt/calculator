@@ -1,0 +1,63 @@
+body {
+	font-family: 'Cinzel', serif;
+    background: yellow url("../img/greek.png") no-repeat center top;
+}
+
+td {
+	width: 50px;
+}
+
+table {
+	margin: auto;
+	width: 400px;
+	font-size: 10px;
+}
+
+#result {
+	height: 120px;
+	background: rgba(0,0,0,.9);
+	color: white;
+	text-align: right;
+	color: white;
+	font-size: 6em;
+	padding: 0 20px;
+	width: 400px;
+	overflow-x: auto;
+	margin: 50px auto 0;
+}
+
+td {
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	font-size: 4em;
+	background: rgba(255,255,0,.9);
+	color: grey;
+}
+
+td:hover {
+	background: orange;
+	color: black;
+	transition: 1s;
+}
+
+#zero {
+	font-size: 3em;
+}
+
+footer {
+	background: black;
+	color: orange;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	font-size: 2em;
+	height: 75px;
+}
+
+footer p {
+	margin: auto;
+}
